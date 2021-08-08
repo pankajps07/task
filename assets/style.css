@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;.
+}
+h4 , label{
+	color: #5277e0;
+}
+.event_ticket input::placeholder{
+color: #5277e0;
+}
+.type{
+	color: red;
+}
+.signup{
+	float: right;
+}
+
+/* -------------------------------file upload------------------- */
+/* input[type=file]{
+  opacity: 0;
+} */
+input[type=file]{
+background: #eee;
+border: 2px solid #5277e0;
+height: 250px;
+width: 450px;
+padding: 115px;
+}
